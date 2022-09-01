@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+    int x,ans;
+    printf("Enter a number");
+    scanf("%d",&x);
+    ans=checkevenodd(x);
+
+}
+void checkevenodd(int x)
+{
+ if(x%2==0)
+    printf("Even");
+    else
+    printf("Odd");
+}
+Out put:
+Enter a number 6
+6
+Even
